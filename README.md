@@ -1,8 +1,16 @@
 # FEniCSx Code Generation demo
 ### SOFA Workshop, 2 July 2021
 
-A short example showing direct use of the automatically generated code
-capabilities of the FEniCS Project from C++.
+This code was shown as part of a presentation at the SOFA Workshop in July
+2020.
+
+It is a short example showing direct use of the automatically generated code
+capabilities of the FEniCS Project from C++ at the lowest level.
+
+### Acknowledgements
+
+The DRIVEN project has received funding from the European Union’s Horizon 2020
+research and innovation programme under grant agreement No 811099
 
 ### Instructions
 

@@ -1,8 +1,8 @@
 # FEniCSx Code Generation demo
-### SOFA Workshop, 2 July 2021
+### SOFA Technical Committee Meeting, 2 July 2021
 
-This code was shown as part of a presentation at the SOFA Workshop in July
-2020.
+This code was shown as part of a presentation at the SOFA Technical Committee
+Meeting in July 2020.
 
 It is a short example showing direct use of the automatically generated code
 capabilities of the FEniCS Project from C++ at the lowest level.

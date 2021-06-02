@@ -1,0 +1,12 @@
+from ufl import FiniteElement, TrialFunction, TestFunction, Mesh, VectorElement
+from ufl import dx, inner, grad, triangle
+
+geometry = VectorElement("Lagrange", triangle, 1)
+mesh = Mesh(geometry)
+
+element = FiniteElement("Lagrange", triangle, 1)
+V = FunctionSpace(mesh, element)
+
+u, v = TrialFunction(V), TestFunction(V)
+
+a = inner(grad(u), grad(v)) * dx

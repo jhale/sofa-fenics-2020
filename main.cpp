@@ -39,10 +39,9 @@ int main() {
   // passed is included in the generated code.
   assert(form_poisson_a->num_coefficients == 0);
   assert(form_poisson_a->num_constants == 0);
-  assert(integral->needs_transformation_data == 0);
 
   integral->tabulate_tensor(A.data(), nullptr, nullptr, coordinate_dofs.data(),
-                            nullptr, nullptr, 0);
+                            nullptr, nullptr);
 
   std::cout << A << std::endl;
 
